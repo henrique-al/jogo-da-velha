@@ -1,0 +1,15 @@
+
+.caixa {
+    height: 150px;
+    width: 150px;
+    border: 10px solid var(--colorLine);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa span{
+    font-size: 8rem;
+    color: var(--colorLine);
+}
