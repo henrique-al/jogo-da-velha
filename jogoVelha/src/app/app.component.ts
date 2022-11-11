@@ -7,10 +7,6 @@ import { JogoComponent } from './components/jogo/jogo.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent{
-  // ngOnInit(): void {
-  //   localStorage.setItem('vitoriasX', String(JogoComponent.vitoriasX))
-  //   localStorage.setItem('vitoriasO', String(JogoComponent.vitoriasO))
-  // }
 
   vitoriasX = localStorage.getItem('vitoriasX') || 0
   vitoriasO = localStorage.getItem('vitoriasO') || 0
